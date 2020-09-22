@@ -22,6 +22,7 @@ ThinkPHP 6.0 使用 tntsearch 实现轻量级搜索
 
 
  `tntsearch` 初始化的位置为 `app\service\TntService`
+
  
  
  ### 前端
