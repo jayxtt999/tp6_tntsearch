@@ -4,10 +4,11 @@ ThinkPHP 6.0 使用 tntsearch 实现轻量级搜索
 ### 安装 tntsearch
 `composer install` or
 `composer require teamtnt/tntsearch`
-
+### 运行
+cd  ./public &&  php -S 127.0.0.1:1234 或者apache nginx套件
 
 ### 创建索引
-`php think create_index` or `curl 127.0.0.1/init`
+`php think create_index` or `curl 127.0.0.1:1234/init`
 
 ### 新建索引
 `php think add_index`
